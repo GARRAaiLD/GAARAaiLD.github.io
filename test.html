@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <title>引导页面</title>
+</head>
+
+<body>
+  <h1>欢迎来到我的网站</h1>
+  <p>点击按钮进入主页面，音乐将自动播放。</p>
+  <button id="enter-button">进入主页面</button>
+
+  <script>
+    document.getElementById('enter-button').addEventListener('click', function () {
+      window.location.href = './index.html'; // 跳转到主页面
+    });
+  </script>
+</body>
+
+</html>
